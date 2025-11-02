@@ -54,7 +54,7 @@ def main(args):
         args.model_path,
         subfolder="transformer",
         torch_dtype=torch.bfloat16,
-        local_files_only=True
+        # local_files_only=True
     )
     transformer.set_style_aligned_args(style_args)
 
@@ -62,7 +62,7 @@ def main(args):
         args.model_path,
         transformer=transformer,
         torch_dtype=torch.bfloat16,
-        local_files_only=True
+        # local_files_only=True
     )
     init_attention_processors(pipe, style_args)
     pipe = pipe.to('cuda')

@@ -8,7 +8,7 @@ import torch
 import numpy as np
 import argparse
 
-
+cache_dir = "./Tdir"
 def init_attention_processors(pipeline: FluxPipeline, style_aligned_args: StyleAlignedArgs | None = None):
     attn_procs = {}
     transformer = pipeline.transformer
@@ -55,6 +55,7 @@ def main(args):
         subfolder="transformer",
         torch_dtype=torch.bfloat16,
         # local_files_only=True
+        cache_dir=cache_dir
     )
     transformer.set_style_aligned_args(style_args)
 
@@ -63,6 +64,7 @@ def main(args):
         transformer=transformer,
         torch_dtype=torch.bfloat16,
         # local_files_only=True
+        cache_dir=cache_dir
     )
     init_attention_processors(pipe, style_args)
     pipe = pipe.to('cuda')

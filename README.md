@@ -1,3 +1,20 @@
+环境: RTX 5090 32G
+
+1024分辨率可以一次跑两个prompts
+
+展示：
+<img id="main" width="100%" src="output/backup/en-globe_iphone/concat.jpg"> 
+
+提示词为`{"Globe in 3D realism style.", "iPhone in 3D realism style."}`
+
+<img id="main" width="100%" src="output/backup/en-apple_iphone/concat.jpg"> 
+
+提示词为`{"Apple in 3D realism style.", "iPhone in 3D realism style."}`
+
+
+
+
+
 <div align="center">
 
 # [NIPS 2025🔥] AlignedGen: Aligning Style Across Generated Images

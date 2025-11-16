@@ -1,8 +1,12 @@
+## fork from https://github.com/Jiexuanz/AlignedGen
 环境: RTX 5090 32G
 
 1024分辨率可以一次跑两个prompts
 
-展示：
+## 展示：
+
+
+
 <img id="main" width="100%" src="output/backup/en-globe_iphone/concat.jpg"> 
 
 提示词为`{"Globe in 3D realism style.", "iPhone in 3D realism style."}`
@@ -11,7 +15,13 @@
 
 提示词为`{"Apple in 3D realism style.", "iPhone in 3D realism style."}`
 
+<img id="main" width="100%" src="output/backup/en-huawei_iphone/concat.jpg"> 
 
+提示词为`{"A Huawei smartphone in a 3D realistic style.", "An Apple iPhone in a 3D realistic style."}`
+
+<img id="main" width="100%" src="output/backup/en-linux_windows/concat.jpg"> 
+
+提示词为`{"A Linux-themed anime-style beautiful girl.", "A Windows-themed anime-style beautiful girl."}`
 
 
 

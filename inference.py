@@ -140,8 +140,12 @@ if __name__ == "__main__":
     en_prompts = [
         # "Anchor in 3D realism style.",
         # "Clock in 3D realism style.",
-        "Apple in 3D realism style.",
-        "iPhone in 3D realism style.",
+        # "Apple in 3D realism style.",
+        # "iPhone in 3D realism style.",
+        # "A Huawei smartphone in a 3D realistic style.",
+        # "An Apple iPhone in a 3D realistic style."
+        "A Linux-themed anime-style beautiful girl.",
+        "A Windows-themed anime-style beautiful girl."
     ]
 
     # 中文提示词示例
